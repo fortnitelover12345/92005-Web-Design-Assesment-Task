@@ -75,8 +75,7 @@ body {
 .logo{
 float: right;
 display: block;
-color: white;+
-padding: 0%;
+color: white;
 }
 
 
@@ -111,7 +110,7 @@ padding: 0%;
   left: 0;
 }
 
-
+/* images size and sharp cut edges */
 img{
   width: 100%;
   border-radius: 5px;
@@ -131,7 +130,7 @@ img{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
-
+/* size of font */
 .info{
   font-size: 1.25em;
 }
@@ -143,6 +142,7 @@ img{
   background: #ddd;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* two column version 2 */
 .two-column2 {
   display: grid;
   grid-template-columns: 3fr 1fr; 
@@ -154,14 +154,6 @@ img{
   text-align: center;
   background: #ddd;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.two-column2 .image {
-  grid-column: 2; 
-}
-
-.two-column2 .info {
-  grid-column: 1; 
 }
 
 
