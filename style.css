@@ -142,7 +142,7 @@ img{
 /* two column version 2 */
 .two-column2 {
   display: grid;
-  grid-template-columns: 3fr 1fr; 
+  grid-template-columns: 1fr 3fr; 
   gap: 50px;
   width: 80%;
   margin: auto;
@@ -152,12 +152,3 @@ img{
   background: #ddd;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-
-
-
-
-
-
-
